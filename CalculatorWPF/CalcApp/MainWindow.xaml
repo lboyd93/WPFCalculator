@@ -1,0 +1,33 @@
+﻿<Window x:Class="CalcApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Foreground="#FFBAB7B7" BorderBrush="Black">
+    <Grid x:Name="Grid" Margin="0,0,-0.4,314" OpacityMask="#FF666363">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="755*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="InputNumberTextBox" VerticalAlignment="Top" HorizontalAlignment="Right" Height="54" Margin="0,41,379.4,-41" RenderTransformOrigin="0.5,0.5" Text="InputText" Width="321" />
+        <TextBox x:Name="AnswerTextBox" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="3.73,1.559" Text="Answerbox" Margin="487,41,0,-41" Height="54" Width="267" />
+        <Grid HorizontalAlignment="Left" Height="245" Margin="54,120,0,-259" VerticalAlignment="Top" Width="356" RenderTransformOrigin="0.501,0.502">
+            <Button Name="Zero" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="0" Height="60" Margin="0,0,0,-1" Width="60" RenderTransformOrigin="0.427,0.657"/>
+            <Button Name="One" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="1" Height="60" Width="60" Margin="0,0,0,57" />
+            <Button Name="Two" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="2" Height="60" Width="60" Margin="60,0,0,58" />
+            <Button Name="Three" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="3" Height="60" Width="60" Margin="120,0,0,58" RenderTransformOrigin="1.677,0.547" />
+            <Button Name="Four" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="4" Height="60" Width="60" Margin="0,0,0,118" />
+            <Button Name="Five" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="5" Height="60" Width="60" Margin="60,0,0,118" RenderTransformOrigin="1.427,0.477" />
+            <Button Name="Six" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="6" Height="60" Width="60" Margin="120,0,0,118" />
+            <Button Name="Seven" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="7" Height="60" Width="60" Margin="0,0,0,178" />
+            <Button Name="Eight" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="8" Height="60" Width="60" Margin="60,0,0,178" RenderTransformOrigin="1.593,-0.607" />
+            <Button Name="Nine" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="9" Height="60" Width="60" Margin="120,0,0,178" />
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
