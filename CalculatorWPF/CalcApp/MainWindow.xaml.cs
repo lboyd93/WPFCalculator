@@ -24,5 +24,15 @@ namespace CalcApp
         {
             InitializeComponent();
         }
+
+        private void Zero_Click(object sender, RoutedEventArgs e)
+        {
+            InputNumberTextBox.Text += " 0 ";
+        }
+
+        private void One_Click(object sender, RoutedEventArgs e)
+        {
+            InputNumberTextBox.Text += " 1 ";
+        }
     }
 }

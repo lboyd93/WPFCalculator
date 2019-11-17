@@ -11,11 +11,11 @@
             <ColumnDefinition Width="755*"/>
             <ColumnDefinition Width="39*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="InputNumberTextBox" VerticalAlignment="Top" HorizontalAlignment="Right" Height="54" Margin="0,41,379.4,-41" RenderTransformOrigin="0.5,0.5" Text="InputText" Width="321" />
-        <TextBox x:Name="AnswerTextBox" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="3.73,1.559" Text="Answerbox" Margin="487,41,0,-41" Height="54" Width="267" />
-        <Grid HorizontalAlignment="Left" Height="245" Margin="54,120,0,-259" VerticalAlignment="Top" Width="356" RenderTransformOrigin="0.501,0.502">
-            <Button Name="Zero" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="0" Height="60" Margin="0,0,0,-1" Width="60" RenderTransformOrigin="0.427,0.657"/>
-            <Button Name="One" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="1" Height="60" Width="60" Margin="0,0,0,57" />
+        <TextBox x:Name="InputNumberTextBox" VerticalAlignment="Top" HorizontalAlignment="Right" Height="54" Margin="0,41,379.4,-41" RenderTransformOrigin="0.5,0.5" Text=" " Width="321" />
+        <TextBox x:Name="AnswerTextBox" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="3.73,1.559" Text="Answerbox" Margin="487,41,0,0" Height="54" Width="257" />
+        <Grid HorizontalAlignment="Left" Height="240" Margin="54,120,0,-254" VerticalAlignment="Top" Width="356" RenderTransformOrigin="0.501,0.502">
+            <Button Name="Zero" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="0" Height="60" Margin="0,0,0,-1" Width="60" RenderTransformOrigin="0.427,0.657" Click="Zero_Click"/>
+            <Button Name="One" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="1" Height="60" Width="60" Margin="0,0,0,57" Click="One_Click" />
             <Button Name="Two" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="2" Height="60" Width="60" Margin="60,0,0,58" />
             <Button Name="Three" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="3" Height="60" Width="60" Margin="120,0,0,58" RenderTransformOrigin="1.677,0.547" />
             <Button Name="Four" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="4" Height="60" Width="60" Margin="0,0,0,118" />
